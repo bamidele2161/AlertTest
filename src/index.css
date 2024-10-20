@@ -1,0 +1,35 @@
+:root {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --pryColor: #5540eb;
+  --white: #fff;
+  --black: #343433;
+  --Grey1: #99999c;
+  --Grey2: #8d8e8e;
+  --positive: #00c46c;
+  --negative: #ff4e4e;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "OjahBlack";
+  src: url("../src/fonts/OjahDisplay-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "OjahBold";
+  src: url("./fonts/OjahDisplay-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "OjahSemi";
+  src: url("./fonts/OjahDisplay-SemiBold.otf") format("truetype");
+}

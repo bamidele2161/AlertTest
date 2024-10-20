@@ -1,0 +1,70 @@
+.chart-container {
+  background-color: white;
+  border-bottom: 1px solid #edf1f7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 98%;
+  height: 500px;
+  min-height: 271px;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    width: 100%;
+  }
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.chart-title {
+  font-size: 1.125rem;
+  margin-left: 2rem;
+  color: #151717;
+}
+
+.chart-select {
+  font-size: 0.875rem;
+  color: #4e5152;
+  background-color: transparent;
+  border: 1px solid #edf1f7;
+  width: 100px;
+  padding: 80x 16px;
+}
+
+.tab-container {
+  display: flex;
+  border-bottom: 1px solid #edf1f7;
+  border-radius: 24px;
+  gap: 2rem;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  background-color: #f4f4f4;
+  justify-content: space-between;
+}
+
+.tab-button {
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #080a09;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.tab-button:focus {
+  outline: none;
+}

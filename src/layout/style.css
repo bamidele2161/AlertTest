@@ -1,0 +1,25 @@
+.layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.content {
+  transition: all 0.3s ease;
+  width: 80%;
+}
+
+.content.expanded {
+  width: 93%;
+}
