@@ -9,6 +9,7 @@ const FormInput = ({
   name,
   onChange,
   onBlur,
+  shortP,
   icon,
   placeholder,
   required,
@@ -52,21 +53,23 @@ const FormInput = ({
             valuePropertyName={valuePropertyName}
           />
         ) : (
-          <input
-            id={id}
-            name={name}
-            type={type}
-            onChange={onChange}
-            onBlur={onBlur}
-            className="form-controls"
-            placeholder={placeholder}
-            disabled={disabled}
-            defaultValue={defaultValue}
-          />
+          <>
+            <input
+              id={id}
+              name={name}
+              type={type}
+              onChange={onChange}
+              onBlur={onBlur}
+              className="form-controls"
+              placeholder={placeholder}
+              disabled={disabled}
+              defaultValue={defaultValue}
+            />
+          </>
         )}
       </div>
-
       {error && <p className="errorMsg">{error}</p>}
+      {shortP && <p className="shortP">{shortP}</p>}
     </div>
   );
 };

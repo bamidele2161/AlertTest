@@ -81,6 +81,7 @@ const BusinessForm = ({ setActiveTab }: AddProps) => {
           defaultValue={values?.name}
           onChange={handleChange}
           onBlur={handleBlur}
+          shortP="Use the registered business name on your document"
         />
 
         <FormInput

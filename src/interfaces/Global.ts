@@ -26,6 +26,7 @@ export interface IFormInputProps {
   placeholder?: string;
   id: string;
   name?: string;
+  shortP?: string;
   error?: string | undefined;
   defaultValue?: string | number;
   type?: React.HTMLInputTypeAttribute | "textarea" | "select";

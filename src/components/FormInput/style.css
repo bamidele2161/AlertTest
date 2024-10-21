@@ -2,6 +2,12 @@
   color: red;
   font-size: 12px;
 }
+.shortP {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b4b4b4;
+  text-align: right;
+}
 .form-controls {
   display: block;
   width: 92%;
