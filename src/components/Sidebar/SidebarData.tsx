@@ -9,7 +9,7 @@ import {
   RefundIcon,
   SetIcon,
   TransactionsIcon,
-} from "../../SVGs/CustomSVGs";
+} from "../../assets/svg/CustomSVGs";
 
 export const SidebarData = [
   {

@@ -1,4 +1,8 @@
-import { ProfIcon, NotificationIcon, BarIcon } from "../../SVGs/CustomSVGs";
+import {
+  ProfIcon,
+  NotificationIcon,
+  BarIcon,
+} from "../../assets/svg/CustomSVGs";
 import Switch from "../Switch/Swtich";
 import "./style.css";
 import { useAppDispatch } from "../../hooks";

@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef, useState } from "react";
 import "./style.css";
-import { ArrowDownIcon } from "../../SVGs/CustomSVGs";
+import { ArrowDownIcon } from "../../assets/svg/CustomSVGs";
 
 interface SelectProps {
   id: string;

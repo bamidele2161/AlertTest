@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "../../SVGs/CustomSVGs";
+import { ArrowRightIcon } from "../../assets/svg/CustomSVGs";
 import { accountOptions } from "../../utils";
 import { AddProps } from "../../interfaces/Global";
 import "./style.css";

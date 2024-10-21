@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { SidebarData, SubSidebarData } from "./SidebarData";
 import { NavLink } from "react-router-dom";
 
 import "./Sidebar.css";
 import addImage from "../../assets/add.png";
-import { AddIcon, PlusIcon } from "../../SVGs/CustomSVGs";
+import { AddIcon, PlusIcon } from "../../assets/svg/CustomSVGs";
 import { useGlobalHooks } from "../../hooks/globalHooks";
 import { selectGlobal } from "../../store/slice/globalSlice";
 import { useAppSelector } from "../../hooks";
@@ -13,9 +13,8 @@ import { selectBusinessInfo } from "../../store/slice/addBusinessSlice";
 const Sidebar = () => {
   const toggle = useAppSelector(selectGlobal);
   const { handleShow } = useGlobalHooks();
-  const [openAddBusiness, setOpenAddBusiness] = useState(false);
   const handleOpenAddBusiness = () => {
-    setOpenAddBusiness(!openAddBusiness);
+    handleShow("open-add-business");
   };
   const handleAddBusiness = () => {
     handleShow("create-business");
@@ -35,7 +34,7 @@ const Sidebar = () => {
           <AddIcon onClick={handleOpenAddBusiness} />
         </div>
 
-        {openAddBusiness && (
+        {toggle["open-add-business"] && (
           <div className="down-section">
             <div className="plus">
               <PlusIcon />

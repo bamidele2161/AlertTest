@@ -1,7 +1,11 @@
 import PopUp from "../PopUps/PopUp";
 import "./style.css";
 import { Modal } from "../../interfaces/Global";
-import { AddBusinessIcon, BarIcon, CloseIcon } from "../../SVGs/CustomSVGs";
+import {
+  AddBusinessIcon,
+  BarIcon,
+  CloseIcon,
+} from "../../assets/svg/CustomSVGs";
 import AccountType from "./AccountType";
 import { useState } from "react";
 import BusinessForm from "./BusinessForm";

@@ -4,7 +4,7 @@ import {
   saveBusinessInfo,
   selectAccountType,
 } from "../../store/slice/addBusinessSlice";
-import { ArrowBackIcon } from "../../SVGs/CustomSVGs";
+import { ArrowBackIcon } from "../../assets/svg/CustomSVGs";
 import { africanCountries, industries, sizes, volumes } from "../../utils";
 import FormInput from "../FormInput";
 import * as Yup from "yup";
@@ -32,6 +32,7 @@ const BusinessForm = ({ setActiveTab }: AddProps) => {
       ...userData,
     };
     dispatch(saveBusinessInfo(requiredData));
+    handleShow("open-add-business");
     handleShow("create-business");
     toast.success("Business created successfully");
   };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import { ActionsIcon, ToolTipIcon } from "../../SVGs/CustomSVGs";
+import { ActionsIcon, ToolTipIcon } from "../../assets/svg/CustomSVGs";
 import { conversionRates, financialData, financialItems } from "../../utils";
 import { Currency } from "../../interfaces/Global";
 

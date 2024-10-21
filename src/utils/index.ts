@@ -5,7 +5,7 @@ import {
   ExportIcon,
   ArrowRedIcon,
   ArrowGreenIcon,
-} from "../SVGs/CustomSVGs";
+} from "../assets/svg/CustomSVGs";
 export const accountOptions: AccountOption[] = [
   {
     icon: MerchantIcon,
